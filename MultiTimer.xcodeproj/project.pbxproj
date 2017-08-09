@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3E0B281F3ABBBE003E5CA1 /* Short-ringtone-for-notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A3E0B271F3ABBBE003E5CA1 /* Short-ringtone-for-notification.mp3 */; };
+		3A8F561C1F39A17700363967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8F561B1F39A17700363967 /* Main.storyboard */; };
 		3AE367FA1F37F75B003886CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE367F91F37F75B003886CB /* AppDelegate.swift */; };
 		3AE368051F37F75C003886CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE368041F37F75C003886CB /* Assets.xcassets */; };
-		3AE368081F37F75C003886CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE368061F37F75C003886CB /* Main.storyboard */; };
 		3AE8A7DA1F39771E003F91D5 /* timerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8A7D91F39771E003F91D5 /* timerViewController.swift */; };
 		3AE8A7DC1F397731003F91D5 /* timer2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8A7DB1F397731003F91D5 /* timer2ViewController.swift */; };
 		3AE8A7DE1F39773F003F91D5 /* timer3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8A7DD1F39773F003F91D5 /* timer3ViewController.swift */; };
+		3AE8A7E71F399E4A003F91D5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE8A7E61F399E4A003F91D5 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3E0B271F3ABBBE003E5CA1 /* Short-ringtone-for-notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Short-ringtone-for-notification.mp3"; sourceTree = "<group>"; };
+		3A8F561B1F39A17700363967 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3AE367F61F37F75B003886CB /* MultiTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE367F91F37F75B003886CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE368041F37F75C003886CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3AE368071F37F75C003886CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AE368091F37F75C003886CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE8A7D91F39771E003F91D5 /* timerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerViewController.swift; sourceTree = "<group>"; };
 		3AE8A7DB1F397731003F91D5 /* timer2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timer2ViewController.swift; sourceTree = "<group>"; };
 		3AE8A7DD1F39773F003F91D5 /* timer3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timer3ViewController.swift; sourceTree = "<group>"; };
+		3AE8A7E61F399E4A003F91D5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +60,15 @@
 		3AE367F81F37F75B003886CB /* MultiTimer */ = {
 			isa = PBXGroup;
 			children = (
-				3AE368061F37F75C003886CB /* Main.storyboard */,
+				3A8F561B1F39A17700363967 /* Main.storyboard */,
+				3AE8A7E61F399E4A003F91D5 /* Launch Screen.storyboard */,
 				3AE368041F37F75C003886CB /* Assets.xcassets */,
 				3AE368091F37F75C003886CB /* Info.plist */,
 				3AE8A7D91F39771E003F91D5 /* timerViewController.swift */,
 				3AE8A7DB1F397731003F91D5 /* timer2ViewController.swift */,
 				3AE8A7DD1F39773F003F91D5 /* timer3ViewController.swift */,
 				3AE367F91F37F75B003886CB /* AppDelegate.swift */,
+				3A3E0B271F3ABBBE003E5CA1 /* Short-ringtone-for-notification.mp3 */,
 			);
 			path = MultiTimer;
 			sourceTree = "<group>";
@@ -127,8 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AE368081F37F75C003886CB /* Main.storyboard in Resources */,
+				3A3E0B281F3ABBBE003E5CA1 /* Short-ringtone-for-notification.mp3 in Resources */,
+				3AE8A7E71F399E4A003F91D5 /* Launch Screen.storyboard in Resources */,
 				3AE368051F37F75C003886CB /* Assets.xcassets in Resources */,
+				3A8F561C1F39A17700363967 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,17 +155,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3AE368061F37F75C003886CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AE368071F37F75C003886CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3AE3680A1F37F75C003886CB /* Debug */ = {

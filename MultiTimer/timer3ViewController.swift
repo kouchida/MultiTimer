@@ -6,4 +6,8 @@
 //  Copyright © 2017 Ko Uchida. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class timer3ViewController: UIViewController {
+    
+}
